@@ -6,4 +6,10 @@ public class GameSettings
     public string Difficulty { get; set; } = "Normal";
     public bool Fullscreen { get; set; } = false;
     public string Language { get; set; } = "English";
+    
+    public override string ToString()
+    {
+        // Return a single string that combines all the properties
+        return $"\n[GameSettings]\n\n Volume: {Volume},\n Difficulty: {Difficulty},\n Language: {Language},\n Fullscreen: {Fullscreen}";
+    }
 }

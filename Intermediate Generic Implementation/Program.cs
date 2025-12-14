@@ -17,6 +17,9 @@ internal static class Program
         configManager.UpdateSettings(settings);
         configManager.SaveCurrentSettings();
         
+        GameSettings currentSettings = configManager.GetSettings(); 
+        Console.WriteLine(currentSettings);
+        
         
     }
 }
