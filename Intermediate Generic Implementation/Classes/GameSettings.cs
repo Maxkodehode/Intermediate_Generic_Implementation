@@ -9,7 +9,7 @@ public class GameSettings
     
     public override string ToString()
     {
-        // Return a single string that combines all the properties
+        // return GameSettings.ToString();
         return $"\n[GameSettings]\n\n Volume: {Volume},\n Difficulty: {Difficulty},\n Language: {Language},\n Fullscreen: {Fullscreen}";
     }
 }
