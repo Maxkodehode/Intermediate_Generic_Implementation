@@ -6,7 +6,7 @@ public class GameSettings
     public string Difficulty { get; set; } = "Normal";
     public bool Fullscreen { get; set; } = false;
     public string Language { get; set; } = "English";
-    
+
     public override string ToString()
     {
         // return GameSettings.ToString();
