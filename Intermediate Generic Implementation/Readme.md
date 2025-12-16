@@ -6,9 +6,11 @@ intuit how to properly build the structure.
 
 I dedicated the majority of my time during this assignment
 to figuring out the correct way to build and implement the 
-generic class. This involved watching numerous YouTube videos,
+generic class.
+This involved watching numerous YouTube videos,
 reading official C# documentation, and asking an LLM
 to explain the concepts in various ways.
+
 --------------
 Creating code with generics is incredibly valuable when the goal is to develop
 something universal that can be reused in many different situations, regardless of the data type.
