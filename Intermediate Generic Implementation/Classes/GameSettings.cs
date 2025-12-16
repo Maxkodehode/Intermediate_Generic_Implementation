@@ -2,10 +2,18 @@ namespace Intermediate_Generic_Implementation.Classes;
 
 public class GameSettings
 {
-    public int Volume { get; set; } = 50;
-    public string Difficulty { get; set; } = "Normal";
-    public bool Fullscreen { get; set; } = false;
-    public string Language { get; set; } = "English";
+    public int Volume { get; init; }
+    public string Difficulty { get; init; }
+    public bool Fullscreen { get; init; }
+    public string Language { get; init; }
+
+    public GameSettings()
+    {
+        Volume = 50;
+        Difficulty = "Normal";
+        Fullscreen = false;
+        Language = "English";
+    }
 
     public override string ToString()
     {

@@ -13,10 +13,10 @@ internal static class Program
 
         var newSettings = new GameSettings
         {
-            Volume = 80,
-            Difficulty = "Ultimate",
-            Language = "Norwegian",
-            Fullscreen = true,
+            Volume = 75,
+            Difficulty = "Insane",
+            Language = "English",
+            Fullscreen = false,
         };
 
         configManager.UpdateSettings(newSettings);
@@ -33,7 +33,7 @@ internal static class Program
 
         // Display the data loaded from the file
         Console.WriteLine("Settings loaded from GameSettings.json:");
-        Console.Clear();
+
         Console.WriteLine(loadedSettings.ToString());
     }
 }
